@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "blastprocessing",
+  "version": "${version}",
+
+  "name": "Blast Processing",
+  "description": "Add gunpowder and gunpowder blocks as a furnace fuel, comes with an explosive surprise",
+  "authors": [
+    "Tfarecnim"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+
+  "license": "CC0-1.0",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "tfar.blastprocessing.ExampleMod"
+    ]
+  },
+  "mixins": [
+    "blastprocessing.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.7.2",
+    "fabric": "*"
+  },
+  "suggests": {
+    "flamingo": "*"
+  }
+}
